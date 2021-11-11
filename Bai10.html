@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soDien = prompt('Nhập vào số điện tiêu thụ: ');
+    let giaTien;
+    if (soDien >= 150) {
+        giaTien = soDien * 5000
+        alert('Tiền điện là' + giaTien)
+    } else if (soDien >= 100) {
+        giaTien = soDien * 4000
+        alert('Tiền điện là' + giaTien)
+    } else if (soDien >= 50) {
+        giaTien = soDien * 3000
+        alert('Tiền điện là' + giaTien)
+    } else {
+        giaTien = soDien * 1000
+        alert('Tiền điện là' + giaTien )
+    }
+</script>
+</body>
+</html>
